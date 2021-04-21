@@ -9,10 +9,9 @@ session = Session()
 
 Base = declarative_base()
 
-
 class Book(Base):
     __tablename__ = 'books'
-
+    
     id = Column(Integer, primary_key=True)
     title = Column('Title', String)
     author = Column('Author', String)
