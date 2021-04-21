@@ -1,2 +1,2 @@
 # book-database-program
-A database project using SQLAlchemy
+A database project by using Python and SQLAlchemy
